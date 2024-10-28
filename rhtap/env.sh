@@ -25,7 +25,7 @@ export INSECURE_SKIP_TLS_VERIFY=${INSECURE_SKIP_TLS_VERIFY-true}
 # to be updates so include an option to disable
 
 export DISABLE_GITOPS_UPDATE=${DISABLE_GITOPS_UPDATE-true}
-export GITOPS_REPO_URL=https://github.com/jduimovich/tssc-dev-gitops
+export GITOPS_REPO_URL=
 
 export PARAM_IMAGE=${PARAM_IMAGE-$IMAGE}
 # Recompute this every time, otherwise it will be set BEFORE the file exists
@@ -48,4 +48,4 @@ export STRICT=${STRICT-true}
 export EFFECTIVE_TIME=${EFFECTIVE_TIME-now}
 export HOMEDIR=${HOMEDIR-$(pwd)}
 export TUF_MIRROR="${MY_TUF_MIRROR:-http://tuf.rhtap.svc}"
-# Update forced CI test Mon Oct 28 11:30:31 EDT 2024
+# Update forced CI test Mon Oct 28 12:30:09 EDT 2024
