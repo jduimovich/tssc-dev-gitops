@@ -48,4 +48,4 @@ export STRICT=${STRICT-true}
 export EFFECTIVE_TIME=${EFFECTIVE_TIME-now}
 export HOMEDIR=${HOMEDIR-$(pwd)}
 export TUF_MIRROR="${MY_TUF_MIRROR:-http://tuf.rhtap.svc}"
-# Update forced CI test Mon Oct 28 13:48:27 EDT 2024
+# Update forced CI test Mon Oct 28 13:51:06 EDT 2024
