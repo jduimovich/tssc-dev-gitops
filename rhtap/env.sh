@@ -6,7 +6,7 @@ CI_TYPE=${CI_TYPE:-jenkins}
 
 # from buildah-rhtap
 TAG=$(git rev-parse HEAD)
-export IMAGE_URL=${IMAGE_URL-quay.io/${MY_QUAY_USER}/bootstrap:$CI_TYPE-$TAG}
+export IMAGE_URL=${IMAGE_URL-quay.io/jduimovich0/bootstrap:$CI_TYPE-$TAG}
 export IMAGE=${IMAGE-$IMAGE_URL}
 
 export DOCKERFILE=${DOCKERFILE-Dockerfile}
@@ -48,4 +48,4 @@ export STRICT=${STRICT-true}
 export EFFECTIVE_TIME=${EFFECTIVE_TIME-now}
 export HOMEDIR=${HOMEDIR-$(pwd)}
 export TUF_MIRROR="${MY_TUF_MIRROR:-http://tuf.rhtap.svc}"
-# Update forced CI test Mon Oct 28 13:51:06 EDT 2024
+# Update forced CI test Mon Oct 28 13:52:37 EDT 2024
