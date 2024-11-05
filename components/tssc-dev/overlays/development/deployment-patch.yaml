@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/jduimovich0/bootstrap:jenkins-b994d22c13efd0db43dba9f34aee29495070bfcf
+        - image: quay.io/jduimovich0/bootstrap:jenkins-4f050384e234eca4bc929df82be9d80711dcea56
           name: container-image
