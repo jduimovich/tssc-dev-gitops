@@ -41,11 +41,11 @@ export TARGET_BRANCH=${TARGET_BRANCH-""}
 # enterprise contract
 export POLICY_CONFIGURATION=${POLICY_CONFIGURATION-"github.com/enterprise-contract/config//rhtap-jenkins"}
 #internal, assumes jenkins is local openshift
-export REKOR_HOST="${MY_REKOR_HOST:-http://rekor-server.rhtap.svc}"
 export IGNORE_REKOR=${IGNORE_REKOR-false}
 export INFO=${INFO-true}
 export STRICT=${STRICT-true}
 export EFFECTIVE_TIME=${EFFECTIVE_TIME-now}
 export HOMEDIR=${HOMEDIR-$(pwd)}
-export TUF_MIRROR="${MY_TUF_MIRROR:-http://tuf.rhtap.svc}"
-# Update forced CI test Mon Nov 11 12:13:21 EST 2024
+export REKOR_HOST=https://rekor-server-rhtap-tas.apps.rosa.fqbre-nx5qu-gm2.x1ie.p3.openshiftapps.com
+export TUF_MIRROR=https://tuf-rhtap-tas.apps.rosa.fqbre-nx5qu-gm2.x1ie.p3.openshiftapps.com
+# Update forced CI test Mon Nov 11 12:53:14 EST 2024
