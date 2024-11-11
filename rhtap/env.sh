@@ -48,4 +48,4 @@ export EFFECTIVE_TIME=${EFFECTIVE_TIME-now}
 export HOMEDIR=${HOMEDIR-$(pwd)}
 export REKOR_HOST=https://rekor-server-rhtap-tas.apps.rosa.fqbre-nx5qu-gm2.x1ie.p3.openshiftapps.com
 export TUF_MIRROR=https://tuf-rhtap-tas.apps.rosa.fqbre-nx5qu-gm2.x1ie.p3.openshiftapps.com
-# Update forced CI test Mon Nov 11 12:53:14 EST 2024
+# Update forced CI test Mon Nov 11 13:18:50 EST 2024
