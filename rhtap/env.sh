@@ -48,4 +48,4 @@ export EFFECTIVE_TIME=${EFFECTIVE_TIME-now}
 export HOMEDIR=${HOMEDIR-$(pwd)}
 export REKOR_HOST=
 export TUF_MIRROR=
-# Update forced CI test Tue Nov 12 10:46:41 EST 2024
+# Update forced CI test Tue Nov 12 10:53:31 EST 2024
