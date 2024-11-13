@@ -46,7 +46,6 @@ export INFO=${INFO-true}
 export STRICT=${STRICT-true}
 export EFFECTIVE_TIME=${EFFECTIVE_TIME-now}
 export HOMEDIR=${HOMEDIR-$(pwd)}
-export FAIL_IF_TRUSTIFICATION_NOT_CONFIGURED=false
 export REKOR_HOST=
 export TUF_MIRROR=
-# Update forced CI test Wed Nov 13 11:40:54 EST 2024
+# Update forced CI test Wed Nov 13 12:25:51 EST 2024
