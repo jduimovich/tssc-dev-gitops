@@ -41,7 +41,6 @@ export TARGET_BRANCH=${TARGET_BRANCH-""}
 # enterprise contract
 export POLICY_CONFIGURATION=${POLICY_CONFIGURATION-"github.com/enterprise-contract/config//rhtap-${CI_TYPE}"}
 #internal, assumes jenkins is local openshift
-export IGNORE_REKOR=${IGNORE_REKOR-false}
 export INFO=${INFO-true}
 export STRICT=${STRICT-true}
 export EFFECTIVE_TIME=${EFFECTIVE_TIME-now}
@@ -52,5 +51,6 @@ export FAIL_IF_TRUSTIFICATION_NOT_CONFIGURED=false
 
 export SBOMS_DIR=results/sboms
 export REKOR_HOST=
+export IGNORE_REKOR=true
 export TUF_MIRROR=
-# Update forced CI test Fri Nov 15 17:35:11 EST 2024
+# Update forced CI test Fri Nov 15 18:05:19 EST 2024
