@@ -49,6 +49,8 @@ export HOMEDIR=${HOMEDIR-$(pwd)}
 
 # Allow PR to succeed even if TAS vars not configured
 export FAIL_IF_TRUSTIFICATION_NOT_CONFIGURED=false
+
+export SBOMS_DIR=results/sboms
 export REKOR_HOST=https://rekor-server-rhtap-tas.apps.rosa.rzrtn-jndcp-oqi.17rq.p3.openshiftapps.com
 export TUF_MIRROR=https://tuf-rhtap-tas.apps.rosa.rzrtn-jndcp-oqi.17rq.p3.openshiftapps.com
-# Update forced CI test Fri Nov 15 14:26:12 EST 2024
+# Update forced CI test Fri Nov 15 14:48:09 EST 2024
