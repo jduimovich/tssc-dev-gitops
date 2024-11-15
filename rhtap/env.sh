@@ -48,6 +48,7 @@ export EFFECTIVE_TIME=${EFFECTIVE_TIME-now}
 export HOMEDIR=${HOMEDIR-$(pwd)}
 
 # Allow PR to succeed even if TAS vars not configured
-export FAIL_IF_TRUSTIFICATION_NOT_CONFIGURED=falseexport REKOR_HOST=https://rekor-server-rhtap-tas.apps.rosa.rzrtn-jndcp-oqi.17rq.p3.openshiftapps.com
+export FAIL_IF_TRUSTIFICATION_NOT_CONFIGURED=false
+export REKOR_HOST=https://rekor-server-rhtap-tas.apps.rosa.rzrtn-jndcp-oqi.17rq.p3.openshiftapps.com
 export TUF_MIRROR=https://tuf-rhtap-tas.apps.rosa.rzrtn-jndcp-oqi.17rq.p3.openshiftapps.com
-# Update forced CI test Fri Nov 15 14:03:43 EST 2024
+# Update forced CI test Fri Nov 15 14:12:49 EST 2024
