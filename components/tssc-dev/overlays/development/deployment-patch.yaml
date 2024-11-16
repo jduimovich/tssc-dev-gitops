@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: ss343
+        - image: github-image
           name: container-image
