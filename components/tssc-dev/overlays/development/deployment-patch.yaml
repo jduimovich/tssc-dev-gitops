@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: github-image
+        - image: github-image2222
           name: container-image
