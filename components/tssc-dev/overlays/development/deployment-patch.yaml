@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/jduimovich0/bootstrap:github-02883e9b3bca07235f083ff94ab7c7a490482c14
+        - image: quay.io/jduimovich0/bootstrap:github-003c825c26652da4c4d7b8bbff2290a740dd9d3b
           name: container-image
