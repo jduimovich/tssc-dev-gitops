@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: ss
+        - image: ss2
           name: container-image
