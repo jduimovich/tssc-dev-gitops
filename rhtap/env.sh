@@ -53,4 +53,4 @@ export SBOMS_DIR=results/sboms
 export REKOR_HOST=https://rekor-server-rhtap-tas.apps.rosa.rzbrg-ega74-q42.9uyr.p3.openshiftapps.com
 export IGNORE_REKOR=false
 export TUF_MIRROR=https://tuf-rhtap-tas.apps.rosa.rzbrg-ega74-q42.9uyr.p3.openshiftapps.com
-# Update forced CI test Sun Nov 17 13:49:06 EST 2024
+# Update forced CI test Sun Nov 17 13:53:11 EST 2024
