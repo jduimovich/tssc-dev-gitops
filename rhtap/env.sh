@@ -50,7 +50,7 @@ export HOMEDIR=${HOMEDIR-$(pwd)}
 export FAIL_IF_TRUSTIFICATION_NOT_CONFIGURED=false
 
 export SBOMS_DIR=results/sboms
-export REKOR_HOST=
-export IGNORE_REKOR=true
-export TUF_MIRROR=
-# Update forced CI test Sun Nov 17 20:06:42 EST 2024
+export REKOR_HOST=https://rekor-server-rhtap-tas.apps.rosa.kuj68-dorej-3dz.t8tp.p3.openshiftapps.com
+export IGNORE_REKOR=false
+export TUF_MIRROR=https://tuf-rhtap-tas.apps.rosa.kuj68-dorej-3dz.t8tp.p3.openshiftapps.com
+# Update forced CI test Sun Nov 17 22:23:48 EST 2024
