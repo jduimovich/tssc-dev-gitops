@@ -53,4 +53,4 @@ export SBOMS_DIR=results/sboms
 export REKOR_HOST=
 export IGNORE_REKOR=true
 export TUF_MIRROR=
-# Update forced CI test Tue Nov 19 15:10:40 EST 2024
+# Update forced CI test Tue Nov 19 15:41:13 EST 2024
